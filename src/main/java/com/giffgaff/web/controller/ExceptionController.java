@@ -1,4 +1,4 @@
-package co.in28minutes.springboot.web.controller;
+package com.giffgaff.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;

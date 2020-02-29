@@ -8,10 +8,10 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.springboot.web</groupId>
-	<artifactId>spring-boot-first-web-application</artifactId>
+	<groupId>com.giffgaff.web.mobileapp</groupId>
+	<artifactId>MobileApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-first-web-application</name>
+	<name>mobile-app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

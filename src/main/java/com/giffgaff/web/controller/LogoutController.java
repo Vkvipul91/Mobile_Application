@@ -1,4 +1,4 @@
-package co.in28minutes.springboot.web.controller;
+package com.giffgaff.web.controller;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

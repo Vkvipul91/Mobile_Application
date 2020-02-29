@@ -1,4 +1,4 @@
-package co.in28minutes.springboot.web.security;
+package com.giffgaff.web.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +16,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     public void configureGlobalSecurity(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication().withUser("vipul").password("{noop}root")
                 .roles("USER", "ADMIN");
+        auth.inMemoryAuthentication().withUser("Raj").password("{noop}root")
+        .roles("USER", "ADMIN");
     }
 
     /**

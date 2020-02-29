@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web.springbootfirstwebapplication;
+package com.giffgaff.web.mobileapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,13 +7,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "co.in28minutes.springboot.web")
-@EntityScan(basePackages = "co.in28minutes.springboot.web.model")
-@EnableJpaRepositories(basePackages = "co.in28minutes.springboot.web.service")
-public class SpringBootFirstWebApplication {
+@ComponentScan(basePackages = "com.giffgaff.web")
+@EntityScan(basePackages = "com.giffgaff.web.entity")
+@EnableJpaRepositories(basePackages = "com.giffgaff.web.dao")
+public class MobileApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootFirstWebApplication.class, args);
+		SpringApplication.run(MobileApplication.class, args);
 	}
 
 }
